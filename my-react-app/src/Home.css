@@ -1,0 +1,73 @@
+body{
+    background-color: #ffffff;
+}
+
+#container{
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: small;
+    color:#b0b0b0;
+}
+
+h1{
+    font-family: "Google Sans","Roboto",Arial,sans-serif;
+    font-size: 25px;
+    margin-left: 19px;
+    background-color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+#days{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    align-items:stretch;
+}
+
+
+button{
+    display:flex;
+    margin: 10px;
+    text-align:center;
+    width:100px;
+    height: 50px;
+    font-family:'Roboto',Arial,sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    color:rgb(63, 140, 255);
+    font-weight: 540;
+}
+
+button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#wow{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color:#ededed;
+    box-shadow: none;
+}
+
+#wow:hover{
+    color:#b0b0b0;
+    background-color: #ededed;
+}
+
+#sunsun{
+    color:rgb(0, 0, 0);
+    background-color: #767676;
+}
+
+#botPage{
+    justify-content: center;
+    display: flex;
+}
